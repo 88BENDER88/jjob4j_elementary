@@ -8,15 +8,15 @@ public class Converter {
     }
 
     public static float rubletoDollar(float value) {
-        float rsl = value / 85;
+        float rsl = value / 60;
         return rsl;
     }
 
     public static void main(String[] args) {
         float euro = Converter.rubletoEuro(150);
         float dollar = Converter.rubletoDollar(175);
-        System.out.println("150 rubles is + " + euro + " euro.");
-        System.out.println("175 rubles is + " + dollar + " dollar. ");
+        System.out.println("150 rubles is " + euro + " euro.");
+        System.out.println("175 rubles is " + dollar + " dollar. ");
     }
 
 }
