@@ -4,13 +4,11 @@ public class Calculatorr {
     public static void plus(int first, int second) {
         int result = first + second;
         System.out.println(result);
-
     }
 
     public static void minus(int first, int second) {
         int result = first - second;
         System.out.println(result);
-
     }
 
     public static void main(String[] args) {
