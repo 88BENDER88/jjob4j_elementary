@@ -6,6 +6,7 @@ public class TrgArea {
         double rsl = Math.sqrt(period * (period - a) * (period - b) * (period - c));
         return rsl;
     }
+
     public static void main(String[] args) {
         double rsl = TrgArea.area(2, 3, 4);
         System.out.println("area (2, 3, 4) = " + rsl);
