@@ -8,4 +8,10 @@ public class Greeting {
         idea = idea + " But I am newbie ";
         System.out.println(idea + year);
     }
+    public static void kek (String[] args){
+        String  idea = " i love";
+        int year = 2023;
+        idea = idea +"But bobobo" + year;
+        System.out.println(idea);
+    }
 }
