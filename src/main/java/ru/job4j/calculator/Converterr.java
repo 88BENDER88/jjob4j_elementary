@@ -3,8 +3,8 @@ package ru.job4j.calculator;
 public class Converterr {
 
     public static float rubletoEuro(float value) {
-        float result = value / 70;
-        return result;
+        float rsl = value / 70;
+        return rsl;
     }
 
     public static float rubleToDollar(float value) {
