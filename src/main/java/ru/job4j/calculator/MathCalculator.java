@@ -14,7 +14,7 @@ public class MathCalculator {
     }
 
     public static double superSum(double first, double second) {
-                return MathFunction.sum(first, second)
+        return MathFunction.sum(first, second)
                 + MathFunction.multiply(first, second)
                 + MathFunction.minus(first, second)
                 + MathFunction.division(first, second);
